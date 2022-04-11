@@ -74,7 +74,7 @@ class Marketplace:
         logging.info("Entered add_to_cart(). Parameters: cart_id = %d, product = %s", cart_id, product)
         search_product_id = None
         is_product_found = False
-
+        # Declaram variabila is_product_found pe baza careia adaugam in cart la gasirea produsului in dictionarul de produse
         self.add_cart_lock.acquire()
 
         producer_key_list = list(self.producer_dictionary.keys())
@@ -103,7 +103,8 @@ class Marketplace:
         cart_items = self.cart_dictionary.get(cart_id)
         id_product_found = None
         is_product_found = False
-
+        # Declaram variabila is_product_found pe baza careia stergem din cart produsul
+        # in cazul in care gasim produsul cautat in dictionarul cart-ului
         for prod, id_prod in cart_items:
             if prod == product:
                 id_product_found = id_prod
@@ -124,7 +125,7 @@ class Marketplace:
         logging.info("Entering place_order(). Parameters: card_id = %d", cart_id)
         order = []
         products = self.cart_dictionary.get(cart_id)
-
+        # Extragem din cart, pe baza id-ului lista de produse
         for prod, id_prod in products:
             order.append(prod)
 
@@ -135,9 +136,11 @@ class Marketplace:
 class TestMarketplace(unittest.TestCase):
 
     def setUp(self):
+        # Instantierea obiectului de tip Marketplace care va fi instantiat in prealabil inainte de fiecare test
         self.marketplace = Marketplace(50)
 
     def test_register_producer(self):
+        # Verificam id-urile returnate de functia register_producer()
         id_producer1 = self.marketplace.register_producer()
         self.assertEqual(id_producer1, 1)
 
@@ -148,6 +151,7 @@ class TestMarketplace(unittest.TestCase):
         self.assertEqual(id_producer3, 3)
 
     def test_new_cart(self):
+        # Verificam id-urile returnate de functia new_cart()
         id_consumer1 = self.marketplace.new_cart()
         self.assertEqual(id_consumer1, 1)
 
@@ -166,10 +170,12 @@ class TestMarketplace(unittest.TestCase):
         id_producer1 = self.marketplace_publish.register_producer()
         product1 = Tea("Tea", 50, "Black")
         test_publish1 = self.marketplace_publish.publish(id_producer1, product1)
+        # Testam faptul ca producatorul a publicat cu succes produsul
         self.assertTrue(test_publish1)
 
         product2 = Coffee("Coffee", 30, "Acidity", "Medium")
         test_publish2 = self.marketplace_publish.publish(id_producer1, product2)
+        # Testam faptul ca producatorul nu a reusit sa publice produsul
         self.assertFalse(test_publish2)
 
     def test_add_to_cart(self):
@@ -182,11 +188,14 @@ class TestMarketplace(unittest.TestCase):
         product3 = Tea("Alternative Tea", 70, "Green")
 
         test_cart = self.marketplace.add_to_cart(id_cart, product)
+        # Testam faptul ca product nu a putut fi adaugat in cart
+        # deoarece dictionarul de produse era gol
         self.assertFalse(test_cart)
 
         self.marketplace.producer_dictionary[id_producer] = [product, product2]
 
         test_cart2 = self.marketplace.add_to_cart(id_cart, product)
+        # Testam faptul ca product a fost adaugat in cart
         self.assertTrue(test_cart2)
 
         test_cart4 = self.marketplace.add_to_cart(id_cart, product3)
@@ -201,10 +210,11 @@ class TestMarketplace(unittest.TestCase):
         product2 = Coffee("Coffee", 30, "Acidity", "Medium")
 
         self.marketplace.cart_dictionary[id_cart] = [{product, id_producer}]
-
+        # Testam faptul ca produsul a fost scos din cart
         self.marketplace.remove_from_cart(id_cart, product)
         self.assertEqual(self.marketplace.producer_dictionary.get(1), [])
 
         self.marketplace.cart_dictionary[id_cart] = [{id_producer, product}]
         self.marketplace.remove_from_cart(id_cart, product2)
+        # Testam faptul ca produsul nu a fost scos din cart deoarece produsul indicat nu era cel din dictionar
         self.assertIsNotNone(self.marketplace.cart_dictionary[id_cart])
