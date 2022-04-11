@@ -1,0 +1,147 @@
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:21 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 21:56:21 - INFO - Function add_to_cart() returned: False
+11-Apr-22 21:56:21 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 21:56:21 - INFO - Function add_to_cart() returned: True
+11-Apr-22 21:56:21 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Alternative Tea', price=70, type='Green')
+11-Apr-22 21:56:21 - INFO - Function add_to_cart() returned: False
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:21 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:56:21 - INFO - Function place_order() returned: [1]
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 2
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 3
+11-Apr-22 21:56:21 - INFO - Entered register_producer()
+11-Apr-22 21:56:21 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:21 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 21:56:21 - INFO - Function add_to_cart() returned: False
+11-Apr-22 21:56:21 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Coffee(name='Coffee', price=30, acidity='Acidity', roast_level='Medium')
+11-Apr-22 21:56:21 - INFO - Function add_to_cart() returned: False
+11-Apr-22 21:56:41 - INFO - Entered register_producer()
+11-Apr-22 21:56:41 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:56:41 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:56:41 - INFO - Function place_order() returned: [Tea(name='Tea', price=50, type='Black')]
+11-Apr-22 21:57:14 - INFO - Entered register_producer()
+11-Apr-22 21:57:14 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:57:14 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:58:20 - INFO - Entered register_producer()
+11-Apr-22 21:58:20 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:58:20 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:58:20 - INFO - Function place_order() returned: [Tea(name='Tea', price=50, type='Black')]
+11-Apr-22 21:58:46 - INFO - Entered register_producer()
+11-Apr-22 21:58:46 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:58:46 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:58:46 - INFO - Function place_order() returned: [1]
+11-Apr-22 21:59:02 - INFO - Entered register_producer()
+11-Apr-22 21:59:02 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:59:02 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:59:02 - INFO - Function place_order() returned: [Tea(name='Tea', price=50, type='Black')]
+11-Apr-22 21:59:30 - INFO - Entered register_producer()
+11-Apr-22 21:59:30 - INFO - Function register_producer() returned: 1
+11-Apr-22 21:59:42 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 21:59:56 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:00:55 - INFO - Entered register_producer()
+11-Apr-22 22:00:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:00:55 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:00:55 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:01:11 - INFO - Entered register_producer()
+11-Apr-22 22:01:11 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:01:32 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:01:41 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:03:09 - INFO - Entered register_producer()
+11-Apr-22 22:03:09 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:03:09 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:03:09 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:03:18 - INFO - Entered register_producer()
+11-Apr-22 22:03:18 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:03:19 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:03:20 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:05:50 - INFO - Entered register_producer()
+11-Apr-22 22:05:50 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:05:50 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:05:50 - INFO - Function place_order() returned: [Tea(name='Tea', price=50, type='Black')]
+11-Apr-22 22:06:05 - INFO - Entered register_producer()
+11-Apr-22 22:06:05 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:07 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:06:07 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:06:35 - INFO - Entered register_producer()
+11-Apr-22 22:06:35 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:35 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:06:35 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:06:35 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:06:35 - INFO - Function add_to_cart() returned: True
+11-Apr-22 22:06:35 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Alternative Tea', price=70, type='Green')
+11-Apr-22 22:06:35 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:06:35 - INFO - Entered register_producer()
+11-Apr-22 22:06:35 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:38 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:06:41 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:06:55 - INFO - Entered register_producer()
+11-Apr-22 22:06:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:55 - INFO - Entered register_producer()
+11-Apr-22 22:06:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:55 - INFO - Entered register_producer()
+11-Apr-22 22:06:55 - INFO - Function register_producer() returned: 2
+11-Apr-22 22:06:55 - INFO - Entered register_producer()
+11-Apr-22 22:06:55 - INFO - Function register_producer() returned: 3
+11-Apr-22 22:06:55 - INFO - Entered register_producer()
+11-Apr-22 22:06:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:06:55 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:06:55 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:06:55 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Coffee(name='Coffee', price=30, acidity='Acidity', roast_level='Medium')
+11-Apr-22 22:06:55 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:07:13 - INFO - Entered register_producer()
+11-Apr-22 22:07:13 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:07:15 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:07:16 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:07:39 - INFO - Entered register_producer()
+11-Apr-22 22:07:39 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:07:41 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:07:41 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:07:55 - INFO - Entered register_producer()
+11-Apr-22 22:07:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:07:55 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:07:55 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:08:07 - INFO - Entered register_producer()
+11-Apr-22 22:08:07 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:08:07 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:08:07 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:08:07 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:08:07 - INFO - Function place_order() returned: [1, Coffee(name='Coffee', price=30, acidity='Acidity', roast_level='Medium')]
+11-Apr-22 22:08:55 - INFO - Entered register_producer()
+11-Apr-22 22:08:55 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:09:02 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:09:34 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:11:36 - INFO - Entered register_producer()
+11-Apr-22 22:11:36 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:11:36 - INFO - Entering place_order(). Parameters: card_id = 1
+11-Apr-22 22:11:36 - INFO - Function place_order() returned: [1]
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:13:11 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:13:11 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:13:11 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:13:11 - INFO - Function add_to_cart() returned: True
+11-Apr-22 22:13:11 - INFO - Entered add_to_cart(). Parameters: cart_id = 1, product = Tea(name='Alternative Tea', price=70, type='Green')
+11-Apr-22 22:13:11 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 2
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 3
+11-Apr-22 22:13:11 - INFO - Entered register_producer()
+11-Apr-22 22:13:11 - INFO - Function register_producer() returned: 1
+11-Apr-22 22:13:11 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Tea(name='Tea', price=50, type='Black')
+11-Apr-22 22:13:11 - INFO - Function add_to_cart() returned: False
+11-Apr-22 22:13:11 - INFO - Entering remove_from_cart(). Parameters: card_id = 1, product = Coffee(name='Coffee', price=30, acidity='Acidity', roast_level='Medium')
+11-Apr-22 22:13:11 - INFO - Function add_to_cart() returned: False
